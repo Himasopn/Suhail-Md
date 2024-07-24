@@ -11,15 +11,15 @@ global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || "mongodb+srv://ynun7nn7:bAYsZBE5yRgB9kGR@cluster0.xd0t2me.mongodb.net/?retryWrites=true&w=majority"
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://secepe8359:2ySdWPIjusvJ749v@cluster0.fray0wp.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.gurl  =process.env.GURL  || "https://wa.me/917002015750?text=Hey%20%F0%9F%8C%88";
+global.website=process.env.GURL || "https://wa.me/917002015750?text=Hey%20%F0%9F%8C%88" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
 
@@ -74,7 +74,7 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "✝️",
+  author : process.env.PACK_AUTHER|| "+917002015750",
   packname: process.env.PACK_NAME || "⚛️",
   botname : process.env.BOT_NAME  || "💫",
   ownername:process.env.OWNER_NAME|| "🌈",
@@ -91,8 +91,8 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  LANG: ( process.env.THEME ||  "NEZUKO"  ).toUpperCase(),
 
 
 
